@@ -4,7 +4,7 @@ var main = document.getElementById('main-container');
 
 page('/', function(ctx, next){
   
-  main.innerHTML = 'home <a href="/signup">SIGNUP</a>';
+  main.innerHTML = 'home <a href="/signup">SIGNUPp</a>';
   
 });
 

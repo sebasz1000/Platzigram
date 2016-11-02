@@ -21,6 +21,7 @@ gulp.task('assets', function(){  //esta funcion apunta a la carpeta  assets, tom
   
 });
 
+
 function compile(watch){
   
   var bundle = watchify(browserify('src/index.js')); // watchify devuelve un objeto que es escuchado
