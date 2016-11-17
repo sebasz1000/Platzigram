@@ -1,17 +1,19 @@
 
 $secondary-color: #125688;
-
+$primary-color: violet;
+$link-color: red;
+ 
 @import '../node_modules/materialize-css/sass/materialize.scss';
-
-
-
+ 
+ 
+ 
 
 body{
   background-color: #fafafa;
   font-family: Montserrat;
   color: #125688;
 }
-
+ 
 #main-container{
   margin: 50px auto;
 }

@@ -6,7 +6,7 @@ var main = document.getElementById('main-container');
 
 page('/', function(ctx, next){
   
- main.innerHTML = '<a href="/signup">Ir a Sign Up!</a>'
+ main.innerHTML = '<a href="/signup">Ir a Sign Up!</a>';
   
 });
 
@@ -14,7 +14,9 @@ page('/signup', function(ctx,next){
 
   var main = document.getElementById('main-container');
   var element = yo`<div class="container">
+   
     <div class="row" >
+
       <div class="col s10 push-s1">
         <div class="row">
           <div class="col m5 hide-on-small-only">
@@ -50,7 +52,7 @@ page('/signup', function(ctx,next){
         </div>
       </div>  
     </div>
-  </div>`
+  </div>`;
   empty(main).appendChild(element); 
     
 });

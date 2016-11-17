@@ -9,6 +9,10 @@
     "platzigram",
     "great"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebasz1000/Platzigram.git"
+  },
   "author": "sebastian zapata",
   "license": "MIT",
   "dependencies": {
@@ -23,8 +27,14 @@
     "babelify": "^7.3.0",
     "browserify": "^13.1.0",
     "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-changed": "^1.3.2",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-jshint": "^2.0.4",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
+    "jshint": "^2.9.4",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0"
   },
